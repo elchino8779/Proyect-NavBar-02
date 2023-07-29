@@ -61,7 +61,37 @@ p{
     border: none;
     background-color: rgb(28, 156, 28);
     transition: 0.5s;
-    box-shadow: 0px 0px 50px #000, inset 0px 0px 20px #3d643a;
+    box-shadow: inset 0px 0px 20px #3d643a;
+}
+
+#seleccion::before{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 15px;
+    border-top-right-radius: 30px;
+    border-top: 8px solid #000;
+    border-right: 8px solid #000;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid transparent;
+    background-color: transparent;
+    left: -38px;
+    top: 42px;
+}
+
+#seleccion::after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 15px;
+    border-top-left-radius: 30px;
+    border-top: 8px solid #000;
+    border-left: 8px solid #000;
+    border-bottom: 7px solid transparent;
+    border-right: 7px solid transparent;
+    background-color: transparent;
+    right: -38px;
+    top: 42px;
 }
 
 .home-container{
