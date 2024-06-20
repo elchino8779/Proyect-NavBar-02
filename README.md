@@ -26,6 +26,6 @@
 <div id="capturas" align="center">
     <h3 align="left"> 📷 Capturas:</h3>
     <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/ShotsImages/NavBar-03/img01.png?raw=true" alt="Cap1" width="800">
-    <br>
+    <br><br>
     <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/ShotsImages/NavBar-03/img02.png?raw=true" alt="Cap2" width="800">
 </div>
